@@ -2,11 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { removeDuplicate } from './BasicChallange1/removeDuplicate'
+import { fizzBuzzArray } from './BasicChallange2/fizzBuzzArray'
 
 function App() {
   const [count, setCount] = useState(0)
-  let reverseOfMainString = removeDuplicate([1,1])
+  let reverseOfMainString = fizzBuzzArray(15)
   console.log(reverseOfMainString);
 
 
