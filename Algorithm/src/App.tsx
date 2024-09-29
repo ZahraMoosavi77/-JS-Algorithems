@@ -2,11 +2,12 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import reverseString from './BasicChallange1/reverseString'
+import isPallindrom from './BasicChallange1/pallindrom'
+import isPallindrom3 from './BasicChallange1/pallindrom'
 
 function App() {
   const [count, setCount] = useState(0)
-  let reverseOfMainString = reverseString("I am zahra MOOsvi")
+  let reverseOfMainString = isPallindrom3("2")
   console.log(reverseOfMainString);
 
 
