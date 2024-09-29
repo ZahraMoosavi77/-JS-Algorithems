@@ -2,12 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import isPallindrom from './BasicChallange1/pallindrom'
-import isPallindrom3 from './BasicChallange1/pallindrom'
+import { countVowel } from './BasicChallange1/countvowel'
 
 function App() {
   const [count, setCount] = useState(0)
-  let reverseOfMainString = isPallindrom3("2")
+  let reverseOfMainString = countVowel("oe")
   console.log(reverseOfMainString);
 
 
