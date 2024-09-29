@@ -2,11 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { countVowel } from './BasicChallange1/countvowel'
+import { removeDuplicate } from './BasicChallange1/removeDuplicate'
 
 function App() {
   const [count, setCount] = useState(0)
-  let reverseOfMainString = countVowel("oe")
+  let reverseOfMainString = removeDuplicate([1,1])
   console.log(reverseOfMainString);
 
 
