@@ -2,11 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { fizzBuzzArray } from './BasicChallange2/fizzBuzzArray'
+import { arrayIntersection } from './BasicChallange2/arrayIntersection'
 
 function App() {
   const [count, setCount] = useState(0)
-  let reverseOfMainString = fizzBuzzArray(15)
+  let reverseOfMainString = arrayIntersection([1,1,3],[1,2,3,4,5])
   console.log(reverseOfMainString);
 
 
