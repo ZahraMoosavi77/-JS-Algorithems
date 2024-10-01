@@ -2,11 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { displayLikes, displayLikes2 } from './BasicChallange2/displayLikes'
+import { findMissingNumber } from './BasicChallange2/findMissingNumber'
 
 function App() {
   const [count, setCount] = useState(0)
-  let reverseOfMainString = displayLikes2([])
+  let reverseOfMainString = findMissingNumber([1,2,3,5])
   console.log(reverseOfMainString);
 
 
