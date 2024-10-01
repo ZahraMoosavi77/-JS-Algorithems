@@ -2,11 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { arrayIntersection } from './BasicChallange2/arrayIntersection'
+import { displayLikes, displayLikes2 } from './BasicChallange2/displayLikes'
 
 function App() {
   const [count, setCount] = useState(0)
-  let reverseOfMainString = arrayIntersection([1,1,3],[1,2,3,4,5])
+  let reverseOfMainString = displayLikes2([])
   console.log(reverseOfMainString);
 
 
