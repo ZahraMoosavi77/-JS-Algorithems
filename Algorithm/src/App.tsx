@@ -2,12 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { findMissingNumber } from './BasicChallange2/findMissingNumber'
-
+import sortedSquarredArray from './day1/sortedSquarredArray'
 function App() {
   const [count, setCount] = useState(0)
-  let reverseOfMainString = findMissingNumber([1,2,3,5])
-  console.log(reverseOfMainString);
+  let result = sortedSquarredArray([-7,-1,-2,3,5])
+  console.log(result,'result');
 
 
   return (
